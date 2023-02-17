@@ -4,8 +4,8 @@ const Header = (): JSX.Element => (
       Weather <span className="font-black">Forecast</span>
     </h1>
     <p className="text-sm mt-2">
-      Enter below a place you want to know the weather of and select an option
-      from dropdown
+      Enter any place name below and select an option
+      from dropdown to know the weather
     </p>
   </>
 )

@@ -34,7 +34,7 @@ const Search = ({
       <Suggestions options={options} onSelect={onOptionSelect} />
 
       <button
-        className="rounded-r-md bg-blue-300  border-2 border-zinc-100 hover:border-zinc-500 hover:text-zinc-500  text-zinc-100 px-2 py-1 cursor-pointer"
+        className="rounded-r-md bg-sky-500 border-2 border-zinc-100 hover:border-white-500 hover:bg-sky-700  text-zinc-100 px-2 py-1 cursor-pointer"
         onClick={onSubmit}
       >
         search

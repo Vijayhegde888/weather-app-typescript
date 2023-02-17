@@ -1,15 +1,19 @@
-This repository is using ReactJS, TypeScript and TailwindCSS. It also runs on node 18 (see .nvmrc) and has a formatter - prettier. If you're running this for the first time - please ensure you have nvm (node version manager).
+This weather application is mainly bult using React js, TypeScript and Tailwind CSS framework. It runs on node 18 version or higher and it also has a  prettier formatter.  before running the application please make sure you have specific node vesrion
 
-## How To Run
+## How To Run This Application
 
-If you don't have nvm installed, run the following command:
-`curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash`
-After you got nvm installed on your machine, run `nvm i` and then `nvm use` (to have the correct nodeJs version)
-
+1 . run npm install
+ OR
 Once you have the correct node version, run `npm i` to get all the required dependencies installed
 
-After everything is installed, run `npm run start` and navigate to http://localhost:3000
+after npm i please run `npm run start` and navigate to specific port for example http://localhost:3000
 
-## API Calls
+## API Calls and Authentication
+Also Please take note of API key 
 
-Please Note: The OpenWeather API is using an API Key. In the repository you fill find a `.env.example` file which you need to copy/save as `.env` and paste the value of your API key (which you can get when you register on the OpenWeather API website).
+# IMPORTANT 
+Add this line in .env if it is already present please ignore
+
+REACT_APP_API_KEY= 'b57be78791e6dee7c445c6b552fbf564'
+
+You can also create your own API key from https://openweathermap.org/

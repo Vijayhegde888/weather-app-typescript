@@ -32,14 +32,14 @@ return `${dayOfMonth} ${monthName}`
             {data.name} <span className="font-thin">{data.country}</span>
           </h2>
           <h1 className="text-4xl font-extrabold">
-            <Degree temp={Math.round(today.main.temp)} />
+            <Degree temp={Math.round(fiveDaysData[0].main.temp)} />
           </h1>
           <p className="text-sm">
-            {today.weather[0].main} ({today.weather[0].description})
+            {today.weather[0].main} ({fiveDaysData[0].weather[0].description})
           </p>
           <p className="text-sm">
-            H: <Degree temp={Math.ceil(today.main.temp_max)} /> L:{' '}
-            <Degree temp={Math.floor(today.main.temp_min)} />
+            H: <Degree temp={Math.ceil(fiveDaysData[0].main.temp_max)} /> L:{' '}
+            <Degree temp={Math.floor(fiveDaysData[0].main.temp_min)} />
           </p>
         </section>
 
